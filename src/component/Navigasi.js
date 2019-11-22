@@ -46,15 +46,17 @@ render() {
               </MDBNavItem>
 
           </MDBNavbarNav>
-          
+
         </MDBCollapse>
       </MDBNavbar>
 
             <Switch>
               <Route path="/" exact>
+                <Event />
+              </Route>
+              <Route Path="/event">
                 <Home />
               </Route>
-              <Route Path="/event"><Event /></Route>
             </Switch>
 
     </Router>
