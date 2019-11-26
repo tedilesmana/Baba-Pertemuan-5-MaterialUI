@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-.li{
-    color: white !important;
-    font-weight: bold;
+body{
+	width: 100%;
+	position: relative;
 }
+
+
+
